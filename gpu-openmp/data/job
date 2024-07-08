@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH --job-name=hello
+#SBATCH --account=tra24005
+#SBATCH --reservation=Summer_Institute_Thur
+#SBATCH --partition=gh-dev
+##SBATCH -- partition=gpu-a100-small
+#SBATCH --time=00:05:00
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+
+./a.out
