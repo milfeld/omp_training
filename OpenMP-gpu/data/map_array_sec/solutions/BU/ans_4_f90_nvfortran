@@ -1,0 +1,6 @@
+nvfortran does not support strided array sections:
+
+$ nvfortran ans_4_array_section.F90 -fopenmp -mp=gpu
+NVFORTRAN-S-0034-Syntax error at or near : (ans_4_array_section.F90: 26)
+  0 inform,   0 warnings,   1 severes, 0 fatal for main
+[milfeld@c608-001 solutions]$ !vi

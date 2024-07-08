@@ -1,0 +1,4 @@
+
+for i in 1a 1b 2 3 4; do nvc++ -fopenmp -mp=gpu ans_${i}_array_section.cpp; ./a.out; done
+
+for i in 1 2 3 4; do nvfortran -fopenmp -mp=gpu ans_${i}_array_section.F90; ./a.out; done

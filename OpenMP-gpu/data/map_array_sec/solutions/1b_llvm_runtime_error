@@ -1,0 +1,5 @@
+"PluginInterface" error: Failure to synchronize stream (nil): Error in cuStreamSynchronize: an illegal memory access was encountered
+omptarget error: Consult https://openmp.llvm.org/design/Runtimes.html for debugging options.
+omptarget error: Source location information not present. Compile with -g or -gline-tables-only.
+omptarget fatal error 1: failure of target construct while offloading is mandatory
+Aborted (core dumped)

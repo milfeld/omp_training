@@ -3,7 +3,7 @@
 INTERATIVE:
 
 Create an idev session on a gpu node:
-Vista:   idev -m 20 -p gh-dev
+Vista:   idev -m 20 -p gh-dev-64k
 LS6:     idev -m 20 -p gpu-a100-small
 
 OR
